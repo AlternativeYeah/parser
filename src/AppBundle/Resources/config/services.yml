@@ -1,0 +1,9 @@
+services:
+    parse.avito:
+        class: AppBundle\Service\Parser\Avito
+    geocoder:
+        class: AppBundle\Service\Geocoder
+    filter.apartment:
+        class: AppBundle\Service\Filter\ApartmentFilter
+    sort.apartment:
+        class: AppBundle\Service\Sort\ApartmentSort
