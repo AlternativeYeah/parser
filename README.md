@@ -1,6 +1,10 @@
-parser
+Parser
 ======
 
-A Symfony project created on December 15, 2017, 3:24 pm.
-# parser
-# parser
+#Initial
+composer install
+
+#App run
+ - bin/console apartments
+ 
+Выполнив эту команду, вы получите файл с квартирами в формате json 
