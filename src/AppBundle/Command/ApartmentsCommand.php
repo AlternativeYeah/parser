@@ -59,7 +59,7 @@ class ApartmentsCommand extends ContainerAwareCommand
             Avito::CITY_MOSCOW,
             Avito::AD_TYPE_LEASE,
             Avito::BUILD_TYPE_APARTMENT,
-            1
+            100
         );
 
         $output->writeln('Получаем геопозицию');
